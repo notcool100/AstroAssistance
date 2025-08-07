@@ -130,3 +130,4 @@ Requirement already satisfied: six>=1.9.0 in ./venv/lib/python3.13/site-packages
 2025-08-07 10:02:22,157 - AstroAssistance-Deployment - INFO - API server command: /home/notcool/Desktop/AstroAssistance/venv/bin/python /home/notcool/Desktop/AstroAssistance/minimal_api.py
 2025-08-07 10:02:22,157 - AstroAssistance-Deployment - INFO - In production, use a process manager like supervisord or systemd
 2025-08-07 10:02:22,157 - AstroAssistance-Deployment - INFO - For now, we'll start the server in the foreground
+2025-08-07 10:15:10,969 - AstroAssistance-Deployment - INFO - Deployment completed successfully

@@ -1,0 +1,108 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String            @id @default(uuid())
+  email             String            @unique
+  password          String
+  name              String
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  tasks             Task[]
+  reminders         Reminder[]
+  goals             Goal[]
+  preferences       UserPreference?
+  recommendations   Recommendation[]
+  learningFeedbacks LearningFeedback[]
+}
+
+model Task {
+  id                String    @id @default(uuid())
+  title             String
+  description       String?
+  category          String
+  priority          String
+  dueDate           DateTime?
+  estimatedDuration Int?      // in minutes
+  tags              String[]
+  completed         Boolean   @default(false)
+  completedAt       DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  userId            String
+  user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Reminder {
+  id          String    @id @default(uuid())
+  title       String
+  description String?
+  dueDate     DateTime
+  completed   Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Goal {
+  id          String    @id @default(uuid())
+  title       String
+  description String?
+  targetDate  DateTime?
+  progress    Float     @default(0)
+  completed   Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserPreference {
+  id                   String   @id @default(uuid())
+  workStartTime        String?  // Format: "HH:MM"
+  workEndTime          String?  // Format: "HH:MM"
+  focusHours           String[] // Format: ["HH:MM-HH:MM", "HH:MM-HH:MM"]
+  breakReminders       Boolean  @default(true)
+  breakInterval        Int?     // in minutes
+  notificationEnabled  Boolean  @default(true)
+  theme                String   @default("light")
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+  userId               String   @unique
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Recommendation {
+  id          String    @id @default(uuid())
+  type        String    // "task", "break", "goal", etc.
+  content     String
+  reason      String?
+  applied     Boolean   @default(false)
+  appliedAt   DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  feedbacks   LearningFeedback[]
+}
+
+model LearningFeedback {
+  id               String        @id @default(uuid())
+  rating           Int           // 1-5 rating
+  comment          String?
+  createdAt        DateTime      @default(now())
+  userId           String
+  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recommendationId String?
+  recommendation   Recommendation? @relation(fields: [recommendationId], references: [id], onDelete: SetNull)
+}

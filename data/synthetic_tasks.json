@@ -1,0 +1,3438 @@
+[
+  {
+    "id": "syn_task_0",
+    "title": "Synthetic Task 0",
+    "description": "This is a synthetic task for training purposes 0",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-23T12:29:07.790057",
+    "createdAt": "2025-07-21T12:29:07.790057",
+    "updatedAt": "2025-07-24T12:29:07.790057",
+    "completedAt": "2025-07-22T19:29:07.790057",
+    "estimatedDuration": 86,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_1",
+    "title": "Synthetic Task 1",
+    "description": "This is a synthetic task for training purposes 1",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-02T12:29:07.790794",
+    "createdAt": "2025-06-28T12:29:07.790794",
+    "updatedAt": "2025-07-06T12:29:07.790794",
+    "completedAt": "2025-07-01T11:29:07.790794",
+    "estimatedDuration": 218,
+    "tags": [
+      "email",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_2",
+    "title": "Synthetic Task 2",
+    "description": "This is a synthetic task for training purposes 2",
+    "category": "OTHER",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-06T12:29:07.790933",
+    "createdAt": "2025-06-10T12:29:07.790933",
+    "updatedAt": "2025-06-14T12:29:07.790933",
+    "completedAt": "2025-07-06T11:29:07.790933",
+    "estimatedDuration": 147,
+    "tags": [
+      "meeting",
+      "report",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_3",
+    "title": "Synthetic Task 3",
+    "description": "This is a synthetic task for training purposes 3",
+    "category": "EDUCATION",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-10T12:29:07.791074",
+    "createdAt": "2025-06-11T12:29:07.791074",
+    "updatedAt": "2025-06-17T12:29:07.791074",
+    "completedAt": null,
+    "estimatedDuration": 209,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_4",
+    "title": "Synthetic Task 4",
+    "description": "This is a synthetic task for training purposes 4",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-08-16T12:29:07.791181",
+    "createdAt": "2025-07-26T12:29:07.791181",
+    "updatedAt": "2025-07-27T12:29:07.791181",
+    "completedAt": null,
+    "estimatedDuration": 223,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_5",
+    "title": "Synthetic Task 5",
+    "description": "This is a synthetic task for training purposes 5",
+    "category": "SOCIAL",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-06T12:29:07.791285",
+    "createdAt": "2025-07-28T12:29:07.791285",
+    "updatedAt": "2025-08-01T12:29:07.791285",
+    "completedAt": "2025-08-05T17:29:07.791285",
+    "estimatedDuration": 201,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_6",
+    "title": "Synthetic Task 6",
+    "description": "This is a synthetic task for training purposes 6",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-08-09T12:29:07.791395",
+    "createdAt": "2025-07-14T12:29:07.791395",
+    "updatedAt": "2025-07-22T12:29:07.791395",
+    "completedAt": null,
+    "estimatedDuration": 176,
+    "tags": [
+      "urgent",
+      "important",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_7",
+    "title": "Synthetic Task 7",
+    "description": "This is a synthetic task for training purposes 7",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-06-23T12:29:07.791495",
+    "createdAt": "2025-06-20T12:29:07.791495",
+    "updatedAt": "2025-06-28T12:29:07.791495",
+    "completedAt": null,
+    "estimatedDuration": 132,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_8",
+    "title": "Synthetic Task 8",
+    "description": "This is a synthetic task for training purposes 8",
+    "category": "WORK",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-30T12:29:07.791594",
+    "createdAt": "2025-08-05T12:29:07.791594",
+    "updatedAt": "2025-08-06T12:29:07.791594",
+    "completedAt": "2025-08-28T17:29:07.791594",
+    "estimatedDuration": 170,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_9",
+    "title": "Synthetic Task 9",
+    "description": "This is a synthetic task for training purposes 9",
+    "category": "HEALTH",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-08-07T12:29:07.791703",
+    "createdAt": "2025-07-21T12:29:07.791703",
+    "updatedAt": "2025-07-30T12:29:07.791703",
+    "completedAt": null,
+    "estimatedDuration": 145,
+    "tags": [
+      "report",
+      "important",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_10",
+    "title": "Synthetic Task 10",
+    "description": "This is a synthetic task for training purposes 10",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-30T12:29:07.791802",
+    "createdAt": "2025-07-21T12:29:07.791802",
+    "updatedAt": "2025-07-28T12:29:07.791802",
+    "completedAt": "2025-07-29T10:29:07.791802",
+    "estimatedDuration": 229,
+    "tags": [
+      "call",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_11",
+    "title": "Synthetic Task 11",
+    "description": "This is a synthetic task for training purposes 11",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-17T12:29:07.791911",
+    "createdAt": "2025-07-07T12:29:07.791911",
+    "updatedAt": "2025-07-12T12:29:07.791911",
+    "completedAt": "2025-07-19T06:29:07.791911",
+    "estimatedDuration": 124,
+    "tags": [
+      "meeting",
+      "report",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_12",
+    "title": "Synthetic Task 12",
+    "description": "This is a synthetic task for training purposes 12",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-20T12:29:07.792037",
+    "createdAt": "2025-06-29T12:29:07.792037",
+    "updatedAt": "2025-07-05T12:29:07.792037",
+    "completedAt": "2025-07-20T01:29:07.792037",
+    "estimatedDuration": 89,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_13",
+    "title": "Synthetic Task 13",
+    "description": "This is a synthetic task for training purposes 13",
+    "category": "WORK",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-06T12:29:07.792158",
+    "createdAt": "2025-06-09T12:29:07.792158",
+    "updatedAt": "2025-06-17T12:29:07.792158",
+    "completedAt": "2025-07-06T01:29:07.792158",
+    "estimatedDuration": 239,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_14",
+    "title": "Synthetic Task 14",
+    "description": "This is a synthetic task for training purposes 14",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-08-03T12:29:07.792265",
+    "createdAt": "2025-07-31T12:29:07.792265",
+    "updatedAt": "2025-08-06T12:29:07.792265",
+    "completedAt": null,
+    "estimatedDuration": 170,
+    "tags": [
+      "important",
+      "urgent",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_15",
+    "title": "Synthetic Task 15",
+    "description": "This is a synthetic task for training purposes 15",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-12T12:29:07.792362",
+    "createdAt": "2025-06-27T12:29:07.792362",
+    "updatedAt": "2025-06-29T12:29:07.792362",
+    "completedAt": "2025-07-11T13:29:07.792362",
+    "estimatedDuration": 190,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_16",
+    "title": "Synthetic Task 16",
+    "description": "This is a synthetic task for training purposes 16",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-28T12:29:07.792470",
+    "createdAt": "2025-07-26T12:29:07.792470",
+    "updatedAt": "2025-08-01T12:29:07.792470",
+    "completedAt": "2025-07-27T18:29:07.792470",
+    "estimatedDuration": 62,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_17",
+    "title": "Synthetic Task 17",
+    "description": "This is a synthetic task for training purposes 17",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-18T12:29:07.792575",
+    "createdAt": "2025-07-01T12:29:07.792575",
+    "updatedAt": "2025-07-09T12:29:07.792575",
+    "completedAt": "2025-07-16T23:29:07.792575",
+    "estimatedDuration": 19,
+    "tags": [
+      "meeting",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_18",
+    "title": "Synthetic Task 18",
+    "description": "This is a synthetic task for training purposes 18",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-19T12:29:07.792682",
+    "createdAt": "2025-07-22T12:29:07.792682",
+    "updatedAt": "2025-07-31T12:29:07.792682",
+    "completedAt": "2025-08-18T12:29:07.792682",
+    "estimatedDuration": 86,
+    "tags": [
+      "urgent",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_19",
+    "title": "Synthetic Task 19",
+    "description": "This is a synthetic task for training purposes 19",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-13T12:29:07.792793",
+    "createdAt": "2025-06-15T12:29:07.792793",
+    "updatedAt": "2025-06-24T12:29:07.792793",
+    "completedAt": "2025-07-12T04:29:07.792793",
+    "estimatedDuration": 75,
+    "tags": [
+      "email",
+      "call",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_20",
+    "title": "Synthetic Task 20",
+    "description": "This is a synthetic task for training purposes 20",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-06-27T12:29:07.792900",
+    "createdAt": "2025-06-22T12:29:07.792900",
+    "updatedAt": "2025-06-29T12:29:07.792900",
+    "completedAt": "2025-06-27T05:29:07.792900",
+    "estimatedDuration": 74,
+    "tags": [
+      "report",
+      "urgent",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_21",
+    "title": "Synthetic Task 21",
+    "description": "This is a synthetic task for training purposes 21",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-15T12:29:07.793016",
+    "createdAt": "2025-07-30T12:29:07.793016",
+    "updatedAt": "2025-08-08T12:29:07.793016",
+    "completedAt": null,
+    "estimatedDuration": 83,
+    "tags": [
+      "important",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_22",
+    "title": "Synthetic Task 22",
+    "description": "This is a synthetic task for training purposes 22",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-01T12:29:07.793121",
+    "createdAt": "2025-06-10T12:29:07.793121",
+    "updatedAt": "2025-06-11T12:29:07.793121",
+    "completedAt": null,
+    "estimatedDuration": 192,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_23",
+    "title": "Synthetic Task 23",
+    "description": "This is a synthetic task for training purposes 23",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-03T12:29:07.793225",
+    "createdAt": "2025-07-25T12:29:07.793225",
+    "updatedAt": "2025-08-03T12:29:07.793225",
+    "completedAt": "2025-08-04T14:29:07.793225",
+    "estimatedDuration": 71,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_24",
+    "title": "Synthetic Task 24",
+    "description": "This is a synthetic task for training purposes 24",
+    "category": "FINANCE",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-28T12:29:07.793513",
+    "createdAt": "2025-07-31T12:29:07.793513",
+    "updatedAt": "2025-08-07T12:29:07.793513",
+    "completedAt": "2025-08-28T17:29:07.793513",
+    "estimatedDuration": 151,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_25",
+    "title": "Synthetic Task 25",
+    "description": "This is a synthetic task for training purposes 25",
+    "category": "HEALTH",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-12T12:29:07.793628",
+    "createdAt": "2025-06-14T12:29:07.793628",
+    "updatedAt": "2025-06-23T12:29:07.793628",
+    "completedAt": "2025-07-10T16:29:07.793628",
+    "estimatedDuration": 121,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_26",
+    "title": "Synthetic Task 26",
+    "description": "This is a synthetic task for training purposes 26",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-10T12:29:07.793736",
+    "createdAt": "2025-07-05T12:29:07.793736",
+    "updatedAt": "2025-07-09T12:29:07.793736",
+    "completedAt": "2025-07-10T00:29:07.793736",
+    "estimatedDuration": 104,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_27",
+    "title": "Synthetic Task 27",
+    "description": "This is a synthetic task for training purposes 27",
+    "category": "WORK",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-06-26T12:29:07.793847",
+    "createdAt": "2025-06-25T12:29:07.793847",
+    "updatedAt": "2025-07-02T12:29:07.793847",
+    "completedAt": "2025-06-26T20:29:07.793847",
+    "estimatedDuration": 211,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_28",
+    "title": "Synthetic Task 28",
+    "description": "This is a synthetic task for training purposes 28",
+    "category": "EDUCATION",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-06T12:29:07.793954",
+    "createdAt": "2025-07-14T12:29:07.793954",
+    "updatedAt": "2025-07-18T12:29:07.793954",
+    "completedAt": null,
+    "estimatedDuration": 157,
+    "tags": [
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_29",
+    "title": "Synthetic Task 29",
+    "description": "This is a synthetic task for training purposes 29",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-28T12:29:07.794071",
+    "createdAt": "2025-07-27T12:29:07.794071",
+    "updatedAt": "2025-08-02T12:29:07.794071",
+    "completedAt": null,
+    "estimatedDuration": 101,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_30",
+    "title": "Synthetic Task 30",
+    "description": "This is a synthetic task for training purposes 30",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-08-20T12:29:07.794217",
+    "createdAt": "2025-07-29T12:29:07.794217",
+    "updatedAt": "2025-08-01T12:29:07.794217",
+    "completedAt": null,
+    "estimatedDuration": 236,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_31",
+    "title": "Synthetic Task 31",
+    "description": "This is a synthetic task for training purposes 31",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-06-20T12:29:07.794423",
+    "createdAt": "2025-06-13T12:29:07.794423",
+    "updatedAt": "2025-06-14T12:29:07.794423",
+    "completedAt": null,
+    "estimatedDuration": 167,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_32",
+    "title": "Synthetic Task 32",
+    "description": "This is a synthetic task for training purposes 32",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-28T12:29:07.794646",
+    "createdAt": "2025-08-05T12:29:07.794646",
+    "updatedAt": "2025-08-08T12:29:07.794646",
+    "completedAt": "2025-08-29T09:29:07.794646",
+    "estimatedDuration": 52,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_33",
+    "title": "Synthetic Task 33",
+    "description": "This is a synthetic task for training purposes 33",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-04T12:29:07.794908",
+    "createdAt": "2025-06-22T12:29:07.794908",
+    "updatedAt": "2025-06-23T12:29:07.794908",
+    "completedAt": null,
+    "estimatedDuration": 191,
+    "tags": [
+      "call",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_34",
+    "title": "Synthetic Task 34",
+    "description": "This is a synthetic task for training purposes 34",
+    "category": "SOCIAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-07T12:29:07.795177",
+    "createdAt": "2025-06-17T12:29:07.795177",
+    "updatedAt": "2025-06-26T12:29:07.795177",
+    "completedAt": null,
+    "estimatedDuration": 132,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_35",
+    "title": "Synthetic Task 35",
+    "description": "This is a synthetic task for training purposes 35",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-13T12:29:07.795384",
+    "createdAt": "2025-06-27T12:29:07.795384",
+    "updatedAt": "2025-07-01T12:29:07.795384",
+    "completedAt": null,
+    "estimatedDuration": 214,
+    "tags": [
+      "meeting",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_36",
+    "title": "Synthetic Task 36",
+    "description": "This is a synthetic task for training purposes 36",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-25T12:29:07.795586",
+    "createdAt": "2025-08-06T12:29:07.795586",
+    "updatedAt": "2025-08-08T12:29:07.795586",
+    "completedAt": "2025-08-24T01:29:07.795586",
+    "estimatedDuration": 102,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_37",
+    "title": "Synthetic Task 37",
+    "description": "This is a synthetic task for training purposes 37",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-17T12:29:07.795843",
+    "createdAt": "2025-07-23T12:29:07.795843",
+    "updatedAt": "2025-07-30T12:29:07.795843",
+    "completedAt": null,
+    "estimatedDuration": 108,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_38",
+    "title": "Synthetic Task 38",
+    "description": "This is a synthetic task for training purposes 38",
+    "category": "SOCIAL",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-08-09T12:29:07.796049",
+    "createdAt": "2025-07-14T12:29:07.796049",
+    "updatedAt": "2025-07-15T12:29:07.796049",
+    "completedAt": null,
+    "estimatedDuration": 112,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_39",
+    "title": "Synthetic Task 39",
+    "description": "This is a synthetic task for training purposes 39",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-10T12:29:07.796252",
+    "createdAt": "2025-07-13T12:29:07.796252",
+    "updatedAt": "2025-07-19T12:29:07.796252",
+    "completedAt": "2025-08-10T11:29:07.796252",
+    "estimatedDuration": 134,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_40",
+    "title": "Synthetic Task 40",
+    "description": "This is a synthetic task for training purposes 40",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-08-17T12:29:07.796465",
+    "createdAt": "2025-07-30T12:29:07.796465",
+    "updatedAt": "2025-08-04T12:29:07.796465",
+    "completedAt": null,
+    "estimatedDuration": 20,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_41",
+    "title": "Synthetic Task 41",
+    "description": "This is a synthetic task for training purposes 41",
+    "category": "EDUCATION",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-04T12:29:07.796742",
+    "createdAt": "2025-06-20T12:29:07.796742",
+    "updatedAt": "2025-06-21T12:29:07.796742",
+    "completedAt": null,
+    "estimatedDuration": 91,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_42",
+    "title": "Synthetic Task 42",
+    "description": "This is a synthetic task for training purposes 42",
+    "category": "SOCIAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-06-26T12:29:07.796965",
+    "createdAt": "2025-06-13T12:29:07.796965",
+    "updatedAt": "2025-06-18T12:29:07.796965",
+    "completedAt": "2025-06-25T23:29:07.796965",
+    "estimatedDuration": 189,
+    "tags": [
+      "important",
+      "report",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_43",
+    "title": "Synthetic Task 43",
+    "description": "This is a synthetic task for training purposes 43",
+    "category": "OTHER",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-05T12:29:07.797201",
+    "createdAt": "2025-06-26T12:29:07.797201",
+    "updatedAt": "2025-07-02T12:29:07.797201",
+    "completedAt": "2025-07-06T14:29:07.797201",
+    "estimatedDuration": 59,
+    "tags": [
+      "urgent",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_44",
+    "title": "Synthetic Task 44",
+    "description": "This is a synthetic task for training purposes 44",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-06-26T12:29:07.797397",
+    "createdAt": "2025-06-24T12:29:07.797397",
+    "updatedAt": "2025-06-29T12:29:07.797397",
+    "completedAt": "2025-06-24T16:29:07.797397",
+    "estimatedDuration": 54,
+    "tags": [
+      "call",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_45",
+    "title": "Synthetic Task 45",
+    "description": "This is a synthetic task for training purposes 45",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-06-28T12:29:07.797611",
+    "createdAt": "2025-06-09T12:29:07.797611",
+    "updatedAt": "2025-06-12T12:29:07.797611",
+    "completedAt": null,
+    "estimatedDuration": 176,
+    "tags": [
+      "important",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_46",
+    "title": "Synthetic Task 46",
+    "description": "This is a synthetic task for training purposes 46",
+    "category": "OTHER",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-06-22T12:29:07.797798",
+    "createdAt": "2025-06-14T12:29:07.797798",
+    "updatedAt": "2025-06-20T12:29:07.797798",
+    "completedAt": null,
+    "estimatedDuration": 230,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_47",
+    "title": "Synthetic Task 47",
+    "description": "This is a synthetic task for training purposes 47",
+    "category": "PERSONAL",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-04T12:29:07.797977",
+    "createdAt": "2025-07-22T12:29:07.797977",
+    "updatedAt": "2025-07-25T12:29:07.797977",
+    "completedAt": null,
+    "estimatedDuration": 206,
+    "tags": [
+      "urgent",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_48",
+    "title": "Synthetic Task 48",
+    "description": "This is a synthetic task for training purposes 48",
+    "category": "WORK",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-16T12:29:07.798188",
+    "createdAt": "2025-06-30T12:29:07.798188",
+    "updatedAt": "2025-07-06T12:29:07.798188",
+    "completedAt": "2025-07-16T19:29:07.798188",
+    "estimatedDuration": 99,
+    "tags": [
+      "urgent",
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_49",
+    "title": "Synthetic Task 49",
+    "description": "This is a synthetic task for training purposes 49",
+    "category": "EDUCATION",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-08T12:29:07.798394",
+    "createdAt": "2025-06-10T12:29:07.798394",
+    "updatedAt": "2025-06-19T12:29:07.798394",
+    "completedAt": null,
+    "estimatedDuration": 117,
+    "tags": [
+      "important",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_50",
+    "title": "Synthetic Task 50",
+    "description": "This is a synthetic task for training purposes 50",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-06T12:29:07.798578",
+    "createdAt": "2025-08-01T12:29:07.798578",
+    "updatedAt": "2025-08-10T12:29:07.798578",
+    "completedAt": "2025-08-04T18:29:07.798578",
+    "estimatedDuration": 203,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_51",
+    "title": "Synthetic Task 51",
+    "description": "This is a synthetic task for training purposes 51",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-08T12:29:07.798764",
+    "createdAt": "2025-06-28T12:29:07.798764",
+    "updatedAt": "2025-07-01T12:29:07.798764",
+    "completedAt": "2025-07-06T13:29:07.798764",
+    "estimatedDuration": 59,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_52",
+    "title": "Synthetic Task 52",
+    "description": "This is a synthetic task for training purposes 52",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-06-14T12:29:07.798948",
+    "createdAt": "2025-06-10T12:29:07.798948",
+    "updatedAt": "2025-06-11T12:29:07.798948",
+    "completedAt": "2025-06-12T19:29:07.798948",
+    "estimatedDuration": 34,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_53",
+    "title": "Synthetic Task 53",
+    "description": "This is a synthetic task for training purposes 53",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-17T12:29:07.799155",
+    "createdAt": "2025-06-27T12:29:07.799155",
+    "updatedAt": "2025-06-28T12:29:07.799155",
+    "completedAt": "2025-07-16T05:29:07.799155",
+    "estimatedDuration": 120,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_54",
+    "title": "Synthetic Task 54",
+    "description": "This is a synthetic task for training purposes 54",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-24T12:29:07.799348",
+    "createdAt": "2025-07-15T12:29:07.799348",
+    "updatedAt": "2025-07-21T12:29:07.799348",
+    "completedAt": "2025-07-25T00:29:07.799348",
+    "estimatedDuration": 151,
+    "tags": [
+      "important",
+      "email",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_55",
+    "title": "Synthetic Task 55",
+    "description": "This is a synthetic task for training purposes 55",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-27T12:29:07.799532",
+    "createdAt": "2025-07-13T12:29:07.799532",
+    "updatedAt": "2025-07-15T12:29:07.799532",
+    "completedAt": "2025-07-26T05:29:07.799532",
+    "estimatedDuration": 88,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_56",
+    "title": "Synthetic Task 56",
+    "description": "This is a synthetic task for training purposes 56",
+    "category": "PERSONAL",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-04T12:29:07.799713",
+    "createdAt": "2025-07-24T12:29:07.799713",
+    "updatedAt": "2025-07-30T12:29:07.799713",
+    "completedAt": null,
+    "estimatedDuration": 237,
+    "tags": [
+      "report",
+      "meeting",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_57",
+    "title": "Synthetic Task 57",
+    "description": "This is a synthetic task for training purposes 57",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-20T12:29:07.799887",
+    "createdAt": "2025-08-05T12:29:07.799887",
+    "updatedAt": "2025-08-13T12:29:07.799887",
+    "completedAt": null,
+    "estimatedDuration": 212,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_58",
+    "title": "Synthetic Task 58",
+    "description": "This is a synthetic task for training purposes 58",
+    "category": "WORK",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-09T12:29:07.800081",
+    "createdAt": "2025-07-06T12:29:07.800081",
+    "updatedAt": "2025-07-08T12:29:07.800081",
+    "completedAt": "2025-07-08T15:29:07.800081",
+    "estimatedDuration": 227,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_59",
+    "title": "Synthetic Task 59",
+    "description": "This is a synthetic task for training purposes 59",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-06-20T12:29:07.800281",
+    "createdAt": "2025-06-12T12:29:07.800281",
+    "updatedAt": "2025-06-20T12:29:07.800281",
+    "completedAt": null,
+    "estimatedDuration": 168,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_60",
+    "title": "Synthetic Task 60",
+    "description": "This is a synthetic task for training purposes 60",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-19T12:29:07.800466",
+    "createdAt": "2025-06-25T12:29:07.800466",
+    "updatedAt": "2025-07-03T12:29:07.800466",
+    "completedAt": "2025-07-18T00:29:07.800466",
+    "estimatedDuration": 118,
+    "tags": [
+      "report",
+      "important",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_61",
+    "title": "Synthetic Task 61",
+    "description": "This is a synthetic task for training purposes 61",
+    "category": "OTHER",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-08-16T12:29:07.800622",
+    "createdAt": "2025-07-20T12:29:07.800622",
+    "updatedAt": "2025-07-24T12:29:07.800622",
+    "completedAt": null,
+    "estimatedDuration": 235,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_62",
+    "title": "Synthetic Task 62",
+    "description": "This is a synthetic task for training purposes 62",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-06T12:29:07.800726",
+    "createdAt": "2025-07-28T12:29:07.800726",
+    "updatedAt": "2025-08-03T12:29:07.800726",
+    "completedAt": "2025-08-08T02:29:07.800726",
+    "estimatedDuration": 217,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_63",
+    "title": "Synthetic Task 63",
+    "description": "This is a synthetic task for training purposes 63",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-08T12:29:07.800843",
+    "createdAt": "2025-08-01T12:29:07.800843",
+    "updatedAt": "2025-08-05T12:29:07.800843",
+    "completedAt": "2025-08-09T08:29:07.800843",
+    "estimatedDuration": 81,
+    "tags": [
+      "important",
+      "urgent",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_64",
+    "title": "Synthetic Task 64",
+    "description": "This is a synthetic task for training purposes 64",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-05T12:29:07.800953",
+    "createdAt": "2025-07-04T12:29:07.800953",
+    "updatedAt": "2025-07-12T12:29:07.800953",
+    "completedAt": null,
+    "estimatedDuration": 73,
+    "tags": [
+      "important",
+      "email",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_65",
+    "title": "Synthetic Task 65",
+    "description": "This is a synthetic task for training purposes 65",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-20T12:29:07.801082",
+    "createdAt": "2025-07-09T12:29:07.801082",
+    "updatedAt": "2025-07-13T12:29:07.801082",
+    "completedAt": "2025-07-21T22:29:07.801082",
+    "estimatedDuration": 33,
+    "tags": [
+      "call",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_66",
+    "title": "Synthetic Task 66",
+    "description": "This is a synthetic task for training purposes 66",
+    "category": "SOCIAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-26T12:29:07.801192",
+    "createdAt": "2025-07-18T12:29:07.801192",
+    "updatedAt": "2025-07-23T12:29:07.801192",
+    "completedAt": "2025-07-27T23:29:07.801192",
+    "estimatedDuration": 137,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_67",
+    "title": "Synthetic Task 67",
+    "description": "This is a synthetic task for training purposes 67",
+    "category": "FINANCE",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-09T12:29:07.801309",
+    "createdAt": "2025-06-22T12:29:07.801309",
+    "updatedAt": "2025-07-01T12:29:07.801309",
+    "completedAt": "2025-07-08T17:29:07.801309",
+    "estimatedDuration": 87,
+    "tags": [
+      "report",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_68",
+    "title": "Synthetic Task 68",
+    "description": "This is a synthetic task for training purposes 68",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-09T12:29:07.801426",
+    "createdAt": "2025-07-24T12:29:07.801426",
+    "updatedAt": "2025-07-28T12:29:07.801426",
+    "completedAt": "2025-08-09T18:29:07.801426",
+    "estimatedDuration": 92,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_69",
+    "title": "Synthetic Task 69",
+    "description": "This is a synthetic task for training purposes 69",
+    "category": "FINANCE",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-08T12:29:07.801534",
+    "createdAt": "2025-08-03T12:29:07.801534",
+    "updatedAt": "2025-08-09T12:29:07.801534",
+    "completedAt": "2025-08-07T20:29:07.801534",
+    "estimatedDuration": 103,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_70",
+    "title": "Synthetic Task 70",
+    "description": "This is a synthetic task for training purposes 70",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-05T12:29:07.801642",
+    "createdAt": "2025-07-08T12:29:07.801642",
+    "updatedAt": "2025-07-09T12:29:07.801642",
+    "completedAt": null,
+    "estimatedDuration": 222,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_71",
+    "title": "Synthetic Task 71",
+    "description": "This is a synthetic task for training purposes 71",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-19T12:29:07.801746",
+    "createdAt": "2025-07-09T12:29:07.801746",
+    "updatedAt": "2025-07-10T12:29:07.801746",
+    "completedAt": null,
+    "estimatedDuration": 115,
+    "tags": [
+      "meeting",
+      "report",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_72",
+    "title": "Synthetic Task 72",
+    "description": "This is a synthetic task for training purposes 72",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-09-03T12:29:07.801933",
+    "createdAt": "2025-08-06T12:29:07.801933",
+    "updatedAt": "2025-08-14T12:29:07.801933",
+    "completedAt": "2025-09-01T20:29:07.801933",
+    "estimatedDuration": 137,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_73",
+    "title": "Synthetic Task 73",
+    "description": "This is a synthetic task for training purposes 73",
+    "category": "SOCIAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-30T12:29:07.802132",
+    "createdAt": "2025-07-21T12:29:07.802132",
+    "updatedAt": "2025-07-24T12:29:07.802132",
+    "completedAt": null,
+    "estimatedDuration": 114,
+    "tags": [
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_74",
+    "title": "Synthetic Task 74",
+    "description": "This is a synthetic task for training purposes 74",
+    "category": "SOCIAL",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-06-30T12:29:07.802276",
+    "createdAt": "2025-06-09T12:29:07.802276",
+    "updatedAt": "2025-06-18T12:29:07.802276",
+    "completedAt": null,
+    "estimatedDuration": 135,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_75",
+    "title": "Synthetic Task 75",
+    "description": "This is a synthetic task for training purposes 75",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-20T12:29:07.802539",
+    "createdAt": "2025-06-28T12:29:07.802539",
+    "updatedAt": "2025-06-29T12:29:07.802539",
+    "completedAt": null,
+    "estimatedDuration": 47,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_76",
+    "title": "Synthetic Task 76",
+    "description": "This is a synthetic task for training purposes 76",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-31T12:29:07.802703",
+    "createdAt": "2025-07-19T12:29:07.802703",
+    "updatedAt": "2025-07-27T12:29:07.802703",
+    "completedAt": null,
+    "estimatedDuration": 176,
+    "tags": [
+      "report",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_77",
+    "title": "Synthetic Task 77",
+    "description": "This is a synthetic task for training purposes 77",
+    "category": "HEALTH",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-03T12:29:07.802854",
+    "createdAt": "2025-07-16T12:29:07.802854",
+    "updatedAt": "2025-07-20T12:29:07.802854",
+    "completedAt": "2025-08-05T03:29:07.802854",
+    "estimatedDuration": 149,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_78",
+    "title": "Synthetic Task 78",
+    "description": "This is a synthetic task for training purposes 78",
+    "category": "HEALTH",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-24T12:29:07.803164",
+    "createdAt": "2025-07-21T12:29:07.803164",
+    "updatedAt": "2025-07-26T12:29:07.803164",
+    "completedAt": "2025-07-23T18:29:07.803164",
+    "estimatedDuration": 233,
+    "tags": [
+      "important",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_79",
+    "title": "Synthetic Task 79",
+    "description": "This is a synthetic task for training purposes 79",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-16T12:29:07.803483",
+    "createdAt": "2025-07-12T12:29:07.803483",
+    "updatedAt": "2025-07-16T12:29:07.803483",
+    "completedAt": "2025-07-15T07:29:07.803483",
+    "estimatedDuration": 161,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_80",
+    "title": "Synthetic Task 80",
+    "description": "This is a synthetic task for training purposes 80",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-14T12:29:07.803693",
+    "createdAt": "2025-06-16T12:29:07.803693",
+    "updatedAt": "2025-06-18T12:29:07.803693",
+    "completedAt": null,
+    "estimatedDuration": 189,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_81",
+    "title": "Synthetic Task 81",
+    "description": "This is a synthetic task for training purposes 81",
+    "category": "HEALTH",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-03T12:29:07.803902",
+    "createdAt": "2025-06-11T12:29:07.803902",
+    "updatedAt": "2025-06-17T12:29:07.803902",
+    "completedAt": null,
+    "estimatedDuration": 71,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_82",
+    "title": "Synthetic Task 82",
+    "description": "This is a synthetic task for training purposes 82",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-06-20T12:29:07.804176",
+    "createdAt": "2025-06-09T12:29:07.804176",
+    "updatedAt": "2025-06-15T12:29:07.804176",
+    "completedAt": null,
+    "estimatedDuration": 60,
+    "tags": [
+      "call",
+      "urgent",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_83",
+    "title": "Synthetic Task 83",
+    "description": "This is a synthetic task for training purposes 83",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-14T12:29:07.804398",
+    "createdAt": "2025-06-22T12:29:07.804398",
+    "updatedAt": "2025-06-28T12:29:07.804398",
+    "completedAt": "2025-07-14T13:29:07.804398",
+    "estimatedDuration": 156,
+    "tags": [
+      "important",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_84",
+    "title": "Synthetic Task 84",
+    "description": "This is a synthetic task for training purposes 84",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-25T12:29:07.804600",
+    "createdAt": "2025-07-30T12:29:07.804600",
+    "updatedAt": "2025-08-01T12:29:07.804600",
+    "completedAt": "2025-08-24T03:29:07.804600",
+    "estimatedDuration": 168,
+    "tags": [
+      "call",
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_85",
+    "title": "Synthetic Task 85",
+    "description": "This is a synthetic task for training purposes 85",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-10T12:29:07.804769",
+    "createdAt": "2025-07-24T12:29:07.804769",
+    "updatedAt": "2025-07-31T12:29:07.804769",
+    "completedAt": "2025-08-10T00:29:07.804769",
+    "estimatedDuration": 126,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_86",
+    "title": "Synthetic Task 86",
+    "description": "This is a synthetic task for training purposes 86",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-27T12:29:07.804925",
+    "createdAt": "2025-08-04T12:29:07.804925",
+    "updatedAt": "2025-08-05T12:29:07.804925",
+    "completedAt": "2025-08-27T11:29:07.804925",
+    "estimatedDuration": 156,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_87",
+    "title": "Synthetic Task 87",
+    "description": "This is a synthetic task for training purposes 87",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-01T12:29:07.805105",
+    "createdAt": "2025-06-21T12:29:07.805105",
+    "updatedAt": "2025-06-29T12:29:07.805105",
+    "completedAt": null,
+    "estimatedDuration": 123,
+    "tags": [
+      "important",
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_88",
+    "title": "Synthetic Task 88",
+    "description": "This is a synthetic task for training purposes 88",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-20T12:29:07.805244",
+    "createdAt": "2025-07-10T12:29:07.805244",
+    "updatedAt": "2025-07-19T12:29:07.805244",
+    "completedAt": "2025-07-20T21:29:07.805244",
+    "estimatedDuration": 237,
+    "tags": [
+      "call",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_89",
+    "title": "Synthetic Task 89",
+    "description": "This is a synthetic task for training purposes 89",
+    "category": "FINANCE",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-11T12:29:07.805403",
+    "createdAt": "2025-06-22T12:29:07.805403",
+    "updatedAt": "2025-06-27T12:29:07.805403",
+    "completedAt": null,
+    "estimatedDuration": 86,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_90",
+    "title": "Synthetic Task 90",
+    "description": "This is a synthetic task for training purposes 90",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-06T12:29:07.805547",
+    "createdAt": "2025-07-18T12:29:07.805547",
+    "updatedAt": "2025-07-21T12:29:07.805547",
+    "completedAt": "2025-08-05T04:29:07.805547",
+    "estimatedDuration": 53,
+    "tags": [
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_91",
+    "title": "Synthetic Task 91",
+    "description": "This is a synthetic task for training purposes 91",
+    "category": "EDUCATION",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-01T12:29:07.805751",
+    "createdAt": "2025-06-23T12:29:07.805751",
+    "updatedAt": "2025-06-26T12:29:07.805751",
+    "completedAt": "2025-06-29T15:29:07.805751",
+    "estimatedDuration": 69,
+    "tags": [
+      "important",
+      "email",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_92",
+    "title": "Synthetic Task 92",
+    "description": "This is a synthetic task for training purposes 92",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-11T12:29:07.805929",
+    "createdAt": "2025-07-26T12:29:07.805929",
+    "updatedAt": "2025-08-02T12:29:07.805929",
+    "completedAt": "2025-08-11T00:29:07.805929",
+    "estimatedDuration": 76,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_93",
+    "title": "Synthetic Task 93",
+    "description": "This is a synthetic task for training purposes 93",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-03T12:29:07.806137",
+    "createdAt": "2025-07-17T12:29:07.806137",
+    "updatedAt": "2025-07-24T12:29:07.806137",
+    "completedAt": null,
+    "estimatedDuration": 116,
+    "tags": [
+      "important",
+      "call",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_94",
+    "title": "Synthetic Task 94",
+    "description": "This is a synthetic task for training purposes 94",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-16T12:29:07.806281",
+    "createdAt": "2025-07-14T12:29:07.806281",
+    "updatedAt": "2025-07-20T12:29:07.806281",
+    "completedAt": "2025-07-18T05:29:07.806281",
+    "estimatedDuration": 208,
+    "tags": [
+      "urgent",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_95",
+    "title": "Synthetic Task 95",
+    "description": "This is a synthetic task for training purposes 95",
+    "category": "WORK",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-24T12:29:07.806437",
+    "createdAt": "2025-06-25T12:29:07.806437",
+    "updatedAt": "2025-06-30T12:29:07.806437",
+    "completedAt": null,
+    "estimatedDuration": 118,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_96",
+    "title": "Synthetic Task 96",
+    "description": "This is a synthetic task for training purposes 96",
+    "category": "WORK",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-06-30T12:29:07.806587",
+    "createdAt": "2025-06-23T12:29:07.806587",
+    "updatedAt": "2025-06-24T12:29:07.806587",
+    "completedAt": null,
+    "estimatedDuration": 209,
+    "tags": [
+      "email",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_97",
+    "title": "Synthetic Task 97",
+    "description": "This is a synthetic task for training purposes 97",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-13T12:29:07.806734",
+    "createdAt": "2025-07-11T12:29:07.806734",
+    "updatedAt": "2025-07-18T12:29:07.806734",
+    "completedAt": null,
+    "estimatedDuration": 26,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_98",
+    "title": "Synthetic Task 98",
+    "description": "This is a synthetic task for training purposes 98",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-19T12:29:07.806908",
+    "createdAt": "2025-07-06T12:29:07.806908",
+    "updatedAt": "2025-07-07T12:29:07.806908",
+    "completedAt": null,
+    "estimatedDuration": 209,
+    "tags": [
+      "call",
+      "email",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_99",
+    "title": "Synthetic Task 99",
+    "description": "This is a synthetic task for training purposes 99",
+    "category": "SOCIAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-19T12:29:07.807095",
+    "createdAt": "2025-07-15T12:29:07.807095",
+    "updatedAt": "2025-07-17T12:29:07.807095",
+    "completedAt": "2025-07-19T18:29:07.807095",
+    "estimatedDuration": 34,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_100",
+    "title": "Synthetic Task 100",
+    "description": "This is a synthetic task for training purposes 100",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-16T12:29:07.807290",
+    "createdAt": "2025-07-18T12:29:07.807290",
+    "updatedAt": "2025-07-26T12:29:07.807290",
+    "completedAt": null,
+    "estimatedDuration": 88,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_101",
+    "title": "Synthetic Task 101",
+    "description": "This is a synthetic task for training purposes 101",
+    "category": "SOCIAL",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-06T12:29:07.807467",
+    "createdAt": "2025-08-01T12:29:07.807467",
+    "updatedAt": "2025-08-03T12:29:07.807467",
+    "completedAt": "2025-08-07T04:29:07.807467",
+    "estimatedDuration": 61,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_102",
+    "title": "Synthetic Task 102",
+    "description": "This is a synthetic task for training purposes 102",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-06-29T12:29:07.807663",
+    "createdAt": "2025-06-25T12:29:07.807663",
+    "updatedAt": "2025-07-03T12:29:07.807663",
+    "completedAt": null,
+    "estimatedDuration": 146,
+    "tags": [
+      "important",
+      "urgent",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_103",
+    "title": "Synthetic Task 103",
+    "description": "This is a synthetic task for training purposes 103",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-18T12:29:07.807844",
+    "createdAt": "2025-07-05T12:29:07.807844",
+    "updatedAt": "2025-07-09T12:29:07.807844",
+    "completedAt": null,
+    "estimatedDuration": 57,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_104",
+    "title": "Synthetic Task 104",
+    "description": "This is a synthetic task for training purposes 104",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-10T12:29:07.808040",
+    "createdAt": "2025-06-19T12:29:07.808040",
+    "updatedAt": "2025-06-27T12:29:07.808040",
+    "completedAt": null,
+    "estimatedDuration": 73,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_105",
+    "title": "Synthetic Task 105",
+    "description": "This is a synthetic task for training purposes 105",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-16T12:29:07.808233",
+    "createdAt": "2025-07-06T12:29:07.808233",
+    "updatedAt": "2025-07-11T12:29:07.808233",
+    "completedAt": "2025-07-15T16:29:07.808233",
+    "estimatedDuration": 98,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_106",
+    "title": "Synthetic Task 106",
+    "description": "This is a synthetic task for training purposes 106",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-02T12:29:07.808442",
+    "createdAt": "2025-07-04T12:29:07.808442",
+    "updatedAt": "2025-07-11T12:29:07.808442",
+    "completedAt": "2025-07-31T16:29:07.808442",
+    "estimatedDuration": 141,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_107",
+    "title": "Synthetic Task 107",
+    "description": "This is a synthetic task for training purposes 107",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-06-26T12:29:07.808646",
+    "createdAt": "2025-06-24T12:29:07.808646",
+    "updatedAt": "2025-06-25T12:29:07.808646",
+    "completedAt": null,
+    "estimatedDuration": 216,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_108",
+    "title": "Synthetic Task 108",
+    "description": "This is a synthetic task for training purposes 108",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-14T12:29:07.808838",
+    "createdAt": "2025-08-01T12:29:07.808838",
+    "updatedAt": "2025-08-07T12:29:07.808838",
+    "completedAt": "2025-08-14T01:29:07.808838",
+    "estimatedDuration": 110,
+    "tags": [
+      "important",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_109",
+    "title": "Synthetic Task 109",
+    "description": "This is a synthetic task for training purposes 109",
+    "category": "PERSONAL",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-22T12:29:07.809079",
+    "createdAt": "2025-06-27T12:29:07.809079",
+    "updatedAt": "2025-06-29T12:29:07.809079",
+    "completedAt": null,
+    "estimatedDuration": 105,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_110",
+    "title": "Synthetic Task 110",
+    "description": "This is a synthetic task for training purposes 110",
+    "category": "EDUCATION",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-25T12:29:07.809285",
+    "createdAt": "2025-07-24T12:29:07.809285",
+    "updatedAt": "2025-07-30T12:29:07.809285",
+    "completedAt": null,
+    "estimatedDuration": 145,
+    "tags": [
+      "report",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_111",
+    "title": "Synthetic Task 111",
+    "description": "This is a synthetic task for training purposes 111",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-06-27T12:29:07.809474",
+    "createdAt": "2025-06-25T12:29:07.809474",
+    "updatedAt": "2025-07-01T12:29:07.809474",
+    "completedAt": "2025-06-27T11:29:07.809474",
+    "estimatedDuration": 127,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_112",
+    "title": "Synthetic Task 112",
+    "description": "This is a synthetic task for training purposes 112",
+    "category": "PERSONAL",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-01T12:29:07.809660",
+    "createdAt": "2025-07-13T12:29:07.809660",
+    "updatedAt": "2025-07-20T12:29:07.809660",
+    "completedAt": "2025-08-01T18:29:07.809660",
+    "estimatedDuration": 29,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_113",
+    "title": "Synthetic Task 113",
+    "description": "This is a synthetic task for training purposes 113",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-18T12:29:07.809862",
+    "createdAt": "2025-07-09T12:29:07.809862",
+    "updatedAt": "2025-07-13T12:29:07.809862",
+    "completedAt": "2025-07-17T21:29:07.809862",
+    "estimatedDuration": 43,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_114",
+    "title": "Synthetic Task 114",
+    "description": "This is a synthetic task for training purposes 114",
+    "category": "HEALTH",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-06-26T12:29:07.810045",
+    "createdAt": "2025-06-09T12:29:07.810045",
+    "updatedAt": "2025-06-13T12:29:07.810045",
+    "completedAt": null,
+    "estimatedDuration": 121,
+    "tags": [
+      "call",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_115",
+    "title": "Synthetic Task 115",
+    "description": "This is a synthetic task for training purposes 115",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-12T12:29:07.810216",
+    "createdAt": "2025-07-05T12:29:07.810216",
+    "updatedAt": "2025-07-08T12:29:07.810216",
+    "completedAt": null,
+    "estimatedDuration": 201,
+    "tags": [
+      "call",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_116",
+    "title": "Synthetic Task 116",
+    "description": "This is a synthetic task for training purposes 116",
+    "category": "FINANCE",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-15T12:29:07.810371",
+    "createdAt": "2025-06-25T12:29:07.810371",
+    "updatedAt": "2025-07-01T12:29:07.810371",
+    "completedAt": "2025-07-15T15:29:07.810371",
+    "estimatedDuration": 154,
+    "tags": [
+      "call",
+      "report",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_117",
+    "title": "Synthetic Task 117",
+    "description": "This is a synthetic task for training purposes 117",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-10T12:29:07.810530",
+    "createdAt": "2025-08-06T12:29:07.810530",
+    "updatedAt": "2025-08-10T12:29:07.810530",
+    "completedAt": "2025-08-09T11:29:07.810530",
+    "estimatedDuration": 149,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_118",
+    "title": "Synthetic Task 118",
+    "description": "This is a synthetic task for training purposes 118",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-31T12:29:07.810692",
+    "createdAt": "2025-07-27T12:29:07.810692",
+    "updatedAt": "2025-07-31T12:29:07.810692",
+    "completedAt": null,
+    "estimatedDuration": 176,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_119",
+    "title": "Synthetic Task 119",
+    "description": "This is a synthetic task for training purposes 119",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-05T12:29:07.810843",
+    "createdAt": "2025-07-24T12:29:07.810843",
+    "updatedAt": "2025-07-25T12:29:07.810843",
+    "completedAt": "2025-08-05T17:29:07.810843",
+    "estimatedDuration": 113,
+    "tags": [
+      "important",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_120",
+    "title": "Synthetic Task 120",
+    "description": "This is a synthetic task for training purposes 120",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-26T12:29:07.811059",
+    "createdAt": "2025-07-01T12:29:07.811059",
+    "updatedAt": "2025-07-03T12:29:07.811059",
+    "completedAt": null,
+    "estimatedDuration": 178,
+    "tags": [
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_121",
+    "title": "Synthetic Task 121",
+    "description": "This is a synthetic task for training purposes 121",
+    "category": "WORK",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-16T12:29:07.811224",
+    "createdAt": "2025-07-24T12:29:07.811224",
+    "updatedAt": "2025-07-30T12:29:07.811224",
+    "completedAt": "2025-08-14T15:29:07.811224",
+    "estimatedDuration": 138,
+    "tags": [
+      "report",
+      "email",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_122",
+    "title": "Synthetic Task 122",
+    "description": "This is a synthetic task for training purposes 122",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-08-16T12:29:07.811406",
+    "createdAt": "2025-07-22T12:29:07.811406",
+    "updatedAt": "2025-07-23T12:29:07.811406",
+    "completedAt": null,
+    "estimatedDuration": 169,
+    "tags": [
+      "report",
+      "meeting",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_123",
+    "title": "Synthetic Task 123",
+    "description": "This is a synthetic task for training purposes 123",
+    "category": "WORK",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-09T12:29:07.811579",
+    "createdAt": "2025-07-27T12:29:07.811579",
+    "updatedAt": "2025-07-29T12:29:07.811579",
+    "completedAt": "2025-08-08T07:29:07.811579",
+    "estimatedDuration": 100,
+    "tags": [
+      "report",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_124",
+    "title": "Synthetic Task 124",
+    "description": "This is a synthetic task for training purposes 124",
+    "category": "SOCIAL",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-06-29T12:29:07.811746",
+    "createdAt": "2025-06-25T12:29:07.811746",
+    "updatedAt": "2025-06-29T12:29:07.811746",
+    "completedAt": null,
+    "estimatedDuration": 59,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_125",
+    "title": "Synthetic Task 125",
+    "description": "This is a synthetic task for training purposes 125",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-21T12:29:07.811896",
+    "createdAt": "2025-06-29T12:29:07.811896",
+    "updatedAt": "2025-06-30T12:29:07.811896",
+    "completedAt": null,
+    "estimatedDuration": 78,
+    "tags": [
+      "important",
+      "call",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_126",
+    "title": "Synthetic Task 126",
+    "description": "This is a synthetic task for training purposes 126",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-27T12:29:07.812056",
+    "createdAt": "2025-07-30T12:29:07.812056",
+    "updatedAt": "2025-08-06T12:29:07.812056",
+    "completedAt": null,
+    "estimatedDuration": 145,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_127",
+    "title": "Synthetic Task 127",
+    "description": "This is a synthetic task for training purposes 127",
+    "category": "PERSONAL",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-06-24T12:29:07.812224",
+    "createdAt": "2025-06-11T12:29:07.812224",
+    "updatedAt": "2025-06-16T12:29:07.812224",
+    "completedAt": null,
+    "estimatedDuration": 53,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_128",
+    "title": "Synthetic Task 128",
+    "description": "This is a synthetic task for training purposes 128",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-31T12:29:07.812390",
+    "createdAt": "2025-07-15T12:29:07.812390",
+    "updatedAt": "2025-07-23T12:29:07.812390",
+    "completedAt": null,
+    "estimatedDuration": 54,
+    "tags": [
+      "meeting",
+      "email",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_129",
+    "title": "Synthetic Task 129",
+    "description": "This is a synthetic task for training purposes 129",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-17T12:29:07.812596",
+    "createdAt": "2025-08-04T12:29:07.812596",
+    "updatedAt": "2025-08-06T12:29:07.812596",
+    "completedAt": "2025-08-17T03:29:07.812596",
+    "estimatedDuration": 89,
+    "tags": [
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_130",
+    "title": "Synthetic Task 130",
+    "description": "This is a synthetic task for training purposes 130",
+    "category": "PERSONAL",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-28T12:29:07.812778",
+    "createdAt": "2025-07-30T12:29:07.812778",
+    "updatedAt": "2025-08-01T12:29:07.812778",
+    "completedAt": null,
+    "estimatedDuration": 78,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_131",
+    "title": "Synthetic Task 131",
+    "description": "This is a synthetic task for training purposes 131",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-01T12:29:07.812952",
+    "createdAt": "2025-07-31T12:29:07.812952",
+    "updatedAt": "2025-08-03T12:29:07.812952",
+    "completedAt": "2025-07-31T13:29:07.812952",
+    "estimatedDuration": 150,
+    "tags": [
+      "report",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_132",
+    "title": "Synthetic Task 132",
+    "description": "This is a synthetic task for training purposes 132",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-25T12:29:07.813190",
+    "createdAt": "2025-06-28T12:29:07.813190",
+    "updatedAt": "2025-07-01T12:29:07.813190",
+    "completedAt": null,
+    "estimatedDuration": 157,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_133",
+    "title": "Synthetic Task 133",
+    "description": "This is a synthetic task for training purposes 133",
+    "category": "EDUCATION",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-08-05T12:29:07.813372",
+    "createdAt": "2025-07-28T12:29:07.813372",
+    "updatedAt": "2025-08-04T12:29:07.813372",
+    "completedAt": null,
+    "estimatedDuration": 84,
+    "tags": [
+      "email",
+      "meeting",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_134",
+    "title": "Synthetic Task 134",
+    "description": "This is a synthetic task for training purposes 134",
+    "category": "FINANCE",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-02T12:29:07.813615",
+    "createdAt": "2025-07-17T12:29:07.813615",
+    "updatedAt": "2025-07-26T12:29:07.813615",
+    "completedAt": "2025-08-01T00:29:07.813615",
+    "estimatedDuration": 124,
+    "tags": [
+      "call",
+      "meeting",
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_135",
+    "title": "Synthetic Task 135",
+    "description": "This is a synthetic task for training purposes 135",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-16T12:29:07.813891",
+    "createdAt": "2025-07-27T12:29:07.813891",
+    "updatedAt": "2025-08-01T12:29:07.813891",
+    "completedAt": "2025-08-17T16:29:07.813891",
+    "estimatedDuration": 74,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_136",
+    "title": "Synthetic Task 136",
+    "description": "This is a synthetic task for training purposes 136",
+    "category": "SOCIAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-11T12:29:07.814116",
+    "createdAt": "2025-07-08T12:29:07.814116",
+    "updatedAt": "2025-07-14T12:29:07.814116",
+    "completedAt": null,
+    "estimatedDuration": 151,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_137",
+    "title": "Synthetic Task 137",
+    "description": "This is a synthetic task for training purposes 137",
+    "category": "FINANCE",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-08-05T12:29:07.814319",
+    "createdAt": "2025-08-03T12:29:07.814319",
+    "updatedAt": "2025-08-10T12:29:07.814319",
+    "completedAt": null,
+    "estimatedDuration": 216,
+    "tags": [
+      "email",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_138",
+    "title": "Synthetic Task 138",
+    "description": "This is a synthetic task for training purposes 138",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-06T12:29:07.814516",
+    "createdAt": "2025-06-30T12:29:07.814516",
+    "updatedAt": "2025-07-06T12:29:07.814516",
+    "completedAt": "2025-07-06T08:29:07.814516",
+    "estimatedDuration": 50,
+    "tags": [
+      "important",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_139",
+    "title": "Synthetic Task 139",
+    "description": "This is a synthetic task for training purposes 139",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-06-18T12:29:07.814739",
+    "createdAt": "2025-06-14T12:29:07.814739",
+    "updatedAt": "2025-06-22T12:29:07.814739",
+    "completedAt": "2025-06-19T01:29:07.814739",
+    "estimatedDuration": 130,
+    "tags": [
+      "urgent"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_140",
+    "title": "Synthetic Task 140",
+    "description": "This is a synthetic task for training purposes 140",
+    "category": "SOCIAL",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-28T12:29:07.814949",
+    "createdAt": "2025-07-09T12:29:07.814949",
+    "updatedAt": "2025-07-13T12:29:07.814949",
+    "completedAt": "2025-07-29T05:29:07.814949",
+    "estimatedDuration": 96,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_141",
+    "title": "Synthetic Task 141",
+    "description": "This is a synthetic task for training purposes 141",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-10T12:29:07.815182",
+    "createdAt": "2025-07-01T12:29:07.815182",
+    "updatedAt": "2025-07-04T12:29:07.815182",
+    "completedAt": "2025-07-09T01:29:07.815182",
+    "estimatedDuration": 18,
+    "tags": [
+      "urgent",
+      "meeting",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_142",
+    "title": "Synthetic Task 142",
+    "description": "This is a synthetic task for training purposes 142",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-14T12:29:07.815411",
+    "createdAt": "2025-07-11T12:29:07.815411",
+    "updatedAt": "2025-07-15T12:29:07.815411",
+    "completedAt": "2025-07-14T11:29:07.815411",
+    "estimatedDuration": 113,
+    "tags": [
+      "email",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_143",
+    "title": "Synthetic Task 143",
+    "description": "This is a synthetic task for training purposes 143",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-20T12:29:07.815617",
+    "createdAt": "2025-07-12T12:29:07.815617",
+    "updatedAt": "2025-07-14T12:29:07.815617",
+    "completedAt": "2025-07-20T10:29:07.815617",
+    "estimatedDuration": 36,
+    "tags": [
+      "report",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_144",
+    "title": "Synthetic Task 144",
+    "description": "This is a synthetic task for training purposes 144",
+    "category": "WORK",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-08-04T12:29:07.815813",
+    "createdAt": "2025-07-22T12:29:07.815813",
+    "updatedAt": "2025-07-31T12:29:07.815813",
+    "completedAt": null,
+    "estimatedDuration": 180,
+    "tags": [
+      "report",
+      "meeting",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_145",
+    "title": "Synthetic Task 145",
+    "description": "This is a synthetic task for training purposes 145",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-07-23T12:29:07.815987",
+    "createdAt": "2025-07-06T12:29:07.815987",
+    "updatedAt": "2025-07-11T12:29:07.815987",
+    "completedAt": null,
+    "estimatedDuration": 83,
+    "tags": [
+      "important",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_146",
+    "title": "Synthetic Task 146",
+    "description": "This is a synthetic task for training purposes 146",
+    "category": "HEALTH",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-02T12:29:07.816187",
+    "createdAt": "2025-07-14T12:29:07.816187",
+    "updatedAt": "2025-07-20T12:29:07.816187",
+    "completedAt": "2025-08-01T23:29:07.816187",
+    "estimatedDuration": 78,
+    "tags": [
+      "report",
+      "urgent",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_147",
+    "title": "Synthetic Task 147",
+    "description": "This is a synthetic task for training purposes 147",
+    "category": "EDUCATION",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-06-17T12:29:07.816394",
+    "createdAt": "2025-06-11T12:29:07.816394",
+    "updatedAt": "2025-06-15T12:29:07.816394",
+    "completedAt": null,
+    "estimatedDuration": 71,
+    "tags": [
+      "meeting",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_148",
+    "title": "Synthetic Task 148",
+    "description": "This is a synthetic task for training purposes 148",
+    "category": "EDUCATION",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-11T12:29:07.816542",
+    "createdAt": "2025-06-20T12:29:07.816542",
+    "updatedAt": "2025-06-21T12:29:07.816542",
+    "completedAt": "2025-07-10T21:29:07.816542",
+    "estimatedDuration": 68,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_149",
+    "title": "Synthetic Task 149",
+    "description": "This is a synthetic task for training purposes 149",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-28T12:29:07.816739",
+    "createdAt": "2025-07-16T12:29:07.816739",
+    "updatedAt": "2025-07-20T12:29:07.816739",
+    "completedAt": "2025-07-29T15:29:07.816739",
+    "estimatedDuration": 106,
+    "tags": [
+      "urgent",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_150",
+    "title": "Synthetic Task 150",
+    "description": "This is a synthetic task for training purposes 150",
+    "category": "EDUCATION",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-06-22T12:29:07.816973",
+    "createdAt": "2025-06-14T12:29:07.816973",
+    "updatedAt": "2025-06-22T12:29:07.816973",
+    "completedAt": "2025-06-21T10:29:07.816973",
+    "estimatedDuration": 26,
+    "tags": [
+      "urgent",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_151",
+    "title": "Synthetic Task 151",
+    "description": "This is a synthetic task for training purposes 151",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-02T12:29:07.817250",
+    "createdAt": "2025-07-31T12:29:07.817250",
+    "updatedAt": "2025-08-03T12:29:07.817250",
+    "completedAt": "2025-08-02T22:29:07.817250",
+    "estimatedDuration": 145,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_152",
+    "title": "Synthetic Task 152",
+    "description": "This is a synthetic task for training purposes 152",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-06-30T12:29:07.817436",
+    "createdAt": "2025-06-20T12:29:07.817436",
+    "updatedAt": "2025-06-28T12:29:07.817436",
+    "completedAt": null,
+    "estimatedDuration": 177,
+    "tags": [
+      "email",
+      "meeting",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_153",
+    "title": "Synthetic Task 153",
+    "description": "This is a synthetic task for training purposes 153",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-13T12:29:07.817600",
+    "createdAt": "2025-06-21T12:29:07.817600",
+    "updatedAt": "2025-06-26T12:29:07.817600",
+    "completedAt": "2025-07-13T05:29:07.817600",
+    "estimatedDuration": 118,
+    "tags": [
+      "meeting",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_154",
+    "title": "Synthetic Task 154",
+    "description": "This is a synthetic task for training purposes 154",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-18T12:29:07.817773",
+    "createdAt": "2025-07-20T12:29:07.817773",
+    "updatedAt": "2025-07-27T12:29:07.817773",
+    "completedAt": null,
+    "estimatedDuration": 82,
+    "tags": [
+      "report",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_155",
+    "title": "Synthetic Task 155",
+    "description": "This is a synthetic task for training purposes 155",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-21T12:29:07.817913",
+    "createdAt": "2025-06-26T12:29:07.817913",
+    "updatedAt": "2025-07-05T12:29:07.817913",
+    "completedAt": null,
+    "estimatedDuration": 91,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_156",
+    "title": "Synthetic Task 156",
+    "description": "This is a synthetic task for training purposes 156",
+    "category": "FINANCE",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-13T12:29:07.818066",
+    "createdAt": "2025-06-25T12:29:07.818066",
+    "updatedAt": "2025-06-29T12:29:07.818066",
+    "completedAt": "2025-07-12T06:29:07.818066",
+    "estimatedDuration": 191,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_157",
+    "title": "Synthetic Task 157",
+    "description": "This is a synthetic task for training purposes 157",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-15T12:29:07.818226",
+    "createdAt": "2025-07-21T12:29:07.818226",
+    "updatedAt": "2025-07-24T12:29:07.818226",
+    "completedAt": null,
+    "estimatedDuration": 42,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_158",
+    "title": "Synthetic Task 158",
+    "description": "This is a synthetic task for training purposes 158",
+    "category": "SOCIAL",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-08-08T12:29:07.818371",
+    "createdAt": "2025-07-10T12:29:07.818371",
+    "updatedAt": "2025-07-16T12:29:07.818371",
+    "completedAt": "2025-08-07T21:29:07.818371",
+    "estimatedDuration": 237,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_159",
+    "title": "Synthetic Task 159",
+    "description": "This is a synthetic task for training purposes 159",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-06T12:29:07.818557",
+    "createdAt": "2025-06-24T12:29:07.818557",
+    "updatedAt": "2025-06-26T12:29:07.818557",
+    "completedAt": null,
+    "estimatedDuration": 160,
+    "tags": [
+      "call",
+      "email",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_160",
+    "title": "Synthetic Task 160",
+    "description": "This is a synthetic task for training purposes 160",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-21T12:29:07.818701",
+    "createdAt": "2025-07-09T12:29:07.818701",
+    "updatedAt": "2025-07-18T12:29:07.818701",
+    "completedAt": null,
+    "estimatedDuration": 185,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_161",
+    "title": "Synthetic Task 161",
+    "description": "This is a synthetic task for training purposes 161",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-26T12:29:07.818859",
+    "createdAt": "2025-06-30T12:29:07.818859",
+    "updatedAt": "2025-07-02T12:29:07.818859",
+    "completedAt": "2025-07-25T14:29:07.818859",
+    "estimatedDuration": 49,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_162",
+    "title": "Synthetic Task 162",
+    "description": "This is a synthetic task for training purposes 162",
+    "category": "PERSONAL",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-30T12:29:07.819032",
+    "createdAt": "2025-07-26T12:29:07.819032",
+    "updatedAt": "2025-07-29T12:29:07.819032",
+    "completedAt": "2025-07-30T02:29:07.819032",
+    "estimatedDuration": 149,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_163",
+    "title": "Synthetic Task 163",
+    "description": "This is a synthetic task for training purposes 163",
+    "category": "FINANCE",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-07T12:29:07.819316",
+    "createdAt": "2025-07-03T12:29:07.819316",
+    "updatedAt": "2025-07-06T12:29:07.819316",
+    "completedAt": null,
+    "estimatedDuration": 128,
+    "tags": [
+      "meeting",
+      "important",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_164",
+    "title": "Synthetic Task 164",
+    "description": "This is a synthetic task for training purposes 164",
+    "category": "EDUCATION",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-20T12:29:07.819518",
+    "createdAt": "2025-07-16T12:29:07.819518",
+    "updatedAt": "2025-07-21T12:29:07.819518",
+    "completedAt": "2025-07-19T05:29:07.819518",
+    "estimatedDuration": 140,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_165",
+    "title": "Synthetic Task 165",
+    "description": "This is a synthetic task for training purposes 165",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-06-30T12:29:07.819690",
+    "createdAt": "2025-06-14T12:29:07.819690",
+    "updatedAt": "2025-06-19T12:29:07.819690",
+    "completedAt": null,
+    "estimatedDuration": 147,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_166",
+    "title": "Synthetic Task 166",
+    "description": "This is a synthetic task for training purposes 166",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-06T12:29:07.819880",
+    "createdAt": "2025-06-12T12:29:07.819880",
+    "updatedAt": "2025-06-20T12:29:07.819880",
+    "completedAt": "2025-07-06T08:29:07.819880",
+    "estimatedDuration": 186,
+    "tags": [
+      "call",
+      "report",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_167",
+    "title": "Synthetic Task 167",
+    "description": "This is a synthetic task for training purposes 167",
+    "category": "WORK",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-06-28T12:29:07.820574",
+    "createdAt": "2025-06-09T12:29:07.820574",
+    "updatedAt": "2025-06-16T12:29:07.820574",
+    "completedAt": "2025-06-28T18:29:07.820574",
+    "estimatedDuration": 19,
+    "tags": [
+      "urgent",
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_168",
+    "title": "Synthetic Task 168",
+    "description": "This is a synthetic task for training purposes 168",
+    "category": "WORK",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-06-24T12:29:07.820883",
+    "createdAt": "2025-06-21T12:29:07.820883",
+    "updatedAt": "2025-06-22T12:29:07.820883",
+    "completedAt": null,
+    "estimatedDuration": 87,
+    "tags": [
+      "call",
+      "report",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_169",
+    "title": "Synthetic Task 169",
+    "description": "This is a synthetic task for training purposes 169",
+    "category": "WORK",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-19T12:29:07.821514",
+    "createdAt": "2025-06-28T12:29:07.821514",
+    "updatedAt": "2025-07-04T12:29:07.821514",
+    "completedAt": "2025-07-18T10:29:07.821514",
+    "estimatedDuration": 19,
+    "tags": [
+      "important",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_170",
+    "title": "Synthetic Task 170",
+    "description": "This is a synthetic task for training purposes 170",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-05T12:29:07.821775",
+    "createdAt": "2025-07-12T12:29:07.821775",
+    "updatedAt": "2025-07-15T12:29:07.821775",
+    "completedAt": null,
+    "estimatedDuration": 157,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_171",
+    "title": "Synthetic Task 171",
+    "description": "This is a synthetic task for training purposes 171",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-06-29T12:29:07.821936",
+    "createdAt": "2025-06-14T12:29:07.821936",
+    "updatedAt": "2025-06-23T12:29:07.821936",
+    "completedAt": null,
+    "estimatedDuration": 101,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_172",
+    "title": "Synthetic Task 172",
+    "description": "This is a synthetic task for training purposes 172",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-08T12:29:07.822488",
+    "createdAt": "2025-07-02T12:29:07.822488",
+    "updatedAt": "2025-07-11T12:29:07.822488",
+    "completedAt": "2025-07-09T01:29:07.822488",
+    "estimatedDuration": 64,
+    "tags": [
+      "urgent",
+      "call",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_173",
+    "title": "Synthetic Task 173",
+    "description": "This is a synthetic task for training purposes 173",
+    "category": "FINANCE",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-01T12:29:07.822703",
+    "createdAt": "2025-06-30T12:29:07.822703",
+    "updatedAt": "2025-07-05T12:29:07.822703",
+    "completedAt": "2025-06-30T14:29:07.822703",
+    "estimatedDuration": 28,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_174",
+    "title": "Synthetic Task 174",
+    "description": "This is a synthetic task for training purposes 174",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": false,
+    "dueDate": "2025-07-17T12:29:07.822906",
+    "createdAt": "2025-06-25T12:29:07.822906",
+    "updatedAt": "2025-06-28T12:29:07.822906",
+    "completedAt": null,
+    "estimatedDuration": 148,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_175",
+    "title": "Synthetic Task 175",
+    "description": "This is a synthetic task for training purposes 175",
+    "category": "SOCIAL",
+    "priority": "HIGH",
+    "completed": false,
+    "dueDate": "2025-07-14T12:29:07.823144",
+    "createdAt": "2025-07-10T12:29:07.823144",
+    "updatedAt": "2025-07-17T12:29:07.823144",
+    "completedAt": null,
+    "estimatedDuration": 208,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_176",
+    "title": "Synthetic Task 176",
+    "description": "This is a synthetic task for training purposes 176",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-26T12:29:07.823349",
+    "createdAt": "2025-08-04T12:29:07.823349",
+    "updatedAt": "2025-08-11T12:29:07.823349",
+    "completedAt": "2025-08-26T07:29:07.823349",
+    "estimatedDuration": 102,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_177",
+    "title": "Synthetic Task 177",
+    "description": "This is a synthetic task for training purposes 177",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-03T12:29:07.823554",
+    "createdAt": "2025-06-30T12:29:07.823554",
+    "updatedAt": "2025-07-08T12:29:07.823554",
+    "completedAt": "2025-07-03T17:29:07.823554",
+    "estimatedDuration": 210,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_178",
+    "title": "Synthetic Task 178",
+    "description": "This is a synthetic task for training purposes 178",
+    "category": "SOCIAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-08T12:29:07.823750",
+    "createdAt": "2025-06-29T12:29:07.823750",
+    "updatedAt": "2025-07-08T12:29:07.823750",
+    "completedAt": "2025-07-08T22:29:07.823750",
+    "estimatedDuration": 50,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_179",
+    "title": "Synthetic Task 179",
+    "description": "This is a synthetic task for training purposes 179",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-30T12:29:07.823929",
+    "createdAt": "2025-07-07T12:29:07.823929",
+    "updatedAt": "2025-07-11T12:29:07.823929",
+    "completedAt": "2025-07-28T18:29:07.823929",
+    "estimatedDuration": 223,
+    "tags": [
+      "report",
+      "urgent",
+      "meeting"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_180",
+    "title": "Synthetic Task 180",
+    "description": "This is a synthetic task for training purposes 180",
+    "category": "SOCIAL",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-06-18T12:29:07.824114",
+    "createdAt": "2025-06-10T12:29:07.824114",
+    "updatedAt": "2025-06-11T12:29:07.824114",
+    "completedAt": "2025-06-18T20:29:07.824114",
+    "estimatedDuration": 113,
+    "tags": [
+      "report",
+      "email",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_181",
+    "title": "Synthetic Task 181",
+    "description": "This is a synthetic task for training purposes 181",
+    "category": "SOCIAL",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-06-30T12:29:07.824306",
+    "createdAt": "2025-06-23T12:29:07.824306",
+    "updatedAt": "2025-06-27T12:29:07.824306",
+    "completedAt": "2025-06-28T21:29:07.824306",
+    "estimatedDuration": 117,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_182",
+    "title": "Synthetic Task 182",
+    "description": "This is a synthetic task for training purposes 182",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-10T12:29:07.824512",
+    "createdAt": "2025-06-19T12:29:07.824512",
+    "updatedAt": "2025-06-27T12:29:07.824512",
+    "completedAt": null,
+    "estimatedDuration": 202,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_183",
+    "title": "Synthetic Task 183",
+    "description": "This is a synthetic task for training purposes 183",
+    "category": "PERSONAL",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-07-12T12:29:07.824684",
+    "createdAt": "2025-06-22T12:29:07.824684",
+    "updatedAt": "2025-06-28T12:29:07.824684",
+    "completedAt": "2025-07-14T10:29:07.824684",
+    "estimatedDuration": 123,
+    "tags": [
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_184",
+    "title": "Synthetic Task 184",
+    "description": "This is a synthetic task for training purposes 184",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-14T12:29:07.824865",
+    "createdAt": "2025-08-01T12:29:07.824865",
+    "updatedAt": "2025-08-08T12:29:07.824865",
+    "completedAt": null,
+    "estimatedDuration": 191,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_185",
+    "title": "Synthetic Task 185",
+    "description": "This is a synthetic task for training purposes 185",
+    "category": "OTHER",
+    "priority": "LOW",
+    "completed": true,
+    "dueDate": "2025-08-02T12:29:07.825031",
+    "createdAt": "2025-07-25T12:29:07.825031",
+    "updatedAt": "2025-08-01T12:29:07.825031",
+    "completedAt": "2025-07-31T17:29:07.825031",
+    "estimatedDuration": 124,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_186",
+    "title": "Synthetic Task 186",
+    "description": "This is a synthetic task for training purposes 186",
+    "category": "HEALTH",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-14T12:29:07.825196",
+    "createdAt": "2025-07-29T12:29:07.825196",
+    "updatedAt": "2025-08-06T12:29:07.825196",
+    "completedAt": null,
+    "estimatedDuration": 66,
+    "tags": [
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_187",
+    "title": "Synthetic Task 187",
+    "description": "This is a synthetic task for training purposes 187",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-11T12:29:07.825366",
+    "createdAt": "2025-07-24T12:29:07.825366",
+    "updatedAt": "2025-08-01T12:29:07.825366",
+    "completedAt": "2025-08-11T02:29:07.825366",
+    "estimatedDuration": 24,
+    "tags": [
+      "urgent",
+      "report",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_188",
+    "title": "Synthetic Task 188",
+    "description": "This is a synthetic task for training purposes 188",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-07-12T12:29:07.825569",
+    "createdAt": "2025-07-10T12:29:07.825569",
+    "updatedAt": "2025-07-18T12:29:07.825569",
+    "completedAt": "2025-07-11T17:29:07.825569",
+    "estimatedDuration": 25,
+    "tags": [
+      "meeting",
+      "report"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_189",
+    "title": "Synthetic Task 189",
+    "description": "This is a synthetic task for training purposes 189",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-05T12:29:07.825753",
+    "createdAt": "2025-07-14T12:29:07.825753",
+    "updatedAt": "2025-07-17T12:29:07.825753",
+    "completedAt": null,
+    "estimatedDuration": 29,
+    "tags": [
+      "call",
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_190",
+    "title": "Synthetic Task 190",
+    "description": "This is a synthetic task for training purposes 190",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-14T12:29:07.825924",
+    "createdAt": "2025-07-10T12:29:07.825924",
+    "updatedAt": "2025-07-12T12:29:07.825924",
+    "completedAt": null,
+    "estimatedDuration": 216,
+    "tags": [
+      "meeting",
+      "call"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_191",
+    "title": "Synthetic Task 191",
+    "description": "This is a synthetic task for training purposes 191",
+    "category": "OTHER",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-08-15T12:29:07.826139",
+    "createdAt": "2025-07-17T12:29:07.826139",
+    "updatedAt": "2025-07-21T12:29:07.826139",
+    "completedAt": "2025-08-13T15:29:07.826139",
+    "estimatedDuration": 26,
+    "tags": [
+      "email",
+      "urgent",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_192",
+    "title": "Synthetic Task 192",
+    "description": "This is a synthetic task for training purposes 192",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-24T12:29:07.826402",
+    "createdAt": "2025-07-21T12:29:07.826402",
+    "updatedAt": "2025-07-30T12:29:07.826402",
+    "completedAt": null,
+    "estimatedDuration": 96,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_193",
+    "title": "Synthetic Task 193",
+    "description": "This is a synthetic task for training purposes 193",
+    "category": "SOCIAL",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-08-09T12:29:07.826651",
+    "createdAt": "2025-08-03T12:29:07.826651",
+    "updatedAt": "2025-08-12T12:29:07.826651",
+    "completedAt": null,
+    "estimatedDuration": 122,
+    "tags": [
+      "report",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_194",
+    "title": "Synthetic Task 194",
+    "description": "This is a synthetic task for training purposes 194",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": false,
+    "dueDate": "2025-07-27T12:29:07.826836",
+    "createdAt": "2025-07-20T12:29:07.826836",
+    "updatedAt": "2025-07-29T12:29:07.826836",
+    "completedAt": null,
+    "estimatedDuration": 113,
+    "tags": [
+      "email",
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_195",
+    "title": "Synthetic Task 195",
+    "description": "This is a synthetic task for training purposes 195",
+    "category": "WORK",
+    "priority": "HIGH",
+    "completed": true,
+    "dueDate": "2025-07-17T12:29:07.827063",
+    "createdAt": "2025-07-10T12:29:07.827063",
+    "updatedAt": "2025-07-16T12:29:07.827063",
+    "completedAt": "2025-07-15T14:29:07.827063",
+    "estimatedDuration": 73,
+    "tags": [],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_196",
+    "title": "Synthetic Task 196",
+    "description": "This is a synthetic task for training purposes 196",
+    "category": "FINANCE",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-30T12:29:07.827274",
+    "createdAt": "2025-08-04T12:29:07.827274",
+    "updatedAt": "2025-08-07T12:29:07.827274",
+    "completedAt": "2025-08-30T08:29:07.827274",
+    "estimatedDuration": 117,
+    "tags": [
+      "report",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_197",
+    "title": "Synthetic Task 197",
+    "description": "This is a synthetic task for training purposes 197",
+    "category": "EDUCATION",
+    "priority": "MEDIUM",
+    "completed": true,
+    "dueDate": "2025-08-18T12:29:07.827481",
+    "createdAt": "2025-07-21T12:29:07.827481",
+    "updatedAt": "2025-07-26T12:29:07.827481",
+    "completedAt": "2025-08-18T11:29:07.827481",
+    "estimatedDuration": 66,
+    "tags": [
+      "important"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_198",
+    "title": "Synthetic Task 198",
+    "description": "This is a synthetic task for training purposes 198",
+    "category": "FINANCE",
+    "priority": "LOW",
+    "completed": false,
+    "dueDate": "2025-06-29T12:29:07.827682",
+    "createdAt": "2025-06-15T12:29:07.827682",
+    "updatedAt": "2025-06-22T12:29:07.827682",
+    "completedAt": null,
+    "estimatedDuration": 29,
+    "tags": [
+      "meeting",
+      "email"
+    ],
+    "userId": "synthetic_user"
+  },
+  {
+    "id": "syn_task_199",
+    "title": "Synthetic Task 199",
+    "description": "This is a synthetic task for training purposes 199",
+    "category": "HEALTH",
+    "priority": "URGENT",
+    "completed": true,
+    "dueDate": "2025-07-05T12:29:07.827870",
+    "createdAt": "2025-06-16T12:29:07.827870",
+    "updatedAt": "2025-06-19T12:29:07.827870",
+    "completedAt": "2025-07-05T01:29:07.827870",
+    "estimatedDuration": 142,
+    "tags": [
+      "email"
+    ],
+    "userId": "synthetic_user"
+  }
+]
