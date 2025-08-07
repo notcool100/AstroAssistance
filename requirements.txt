@@ -1,0 +1,45 @@
+# Core ML libraries
+# tensorflow will be installed separately if needed
+torch
+scikit-learn
+numpy
+pandas
+
+# NLP and text processing
+transformers
+nltk
+spacy
+gensim
+
+# Data processing and visualization
+matplotlib
+seaborn
+plotly
+tqdm
+
+# API and web framework
+fastapi
+uvicorn
+pydantic
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary  # PostgreSQL adapter
+
+# Testing
+pytest
+pytest-cov
+
+# Utilities
+python-dotenv
+loguru
+joblib
+
+# Reinforcement learning
+gymnasium
+stable-baselines3
+
+# Experiment tracking
+mlflow
+wandb

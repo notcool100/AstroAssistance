@@ -1,0 +1,132 @@
+2025-08-07 10:01:32,129 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data
+2025-08-07 10:01:32,129 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data/raw
+2025-08-07 10:01:32,129 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data/processed
+2025-08-07 10:01:32,130 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data/synthetic
+2025-08-07 10:01:32,130 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/models
+2025-08-07 10:01:32,130 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/logs
+2025-08-07 10:01:32,136 - AstroAssistance-Deployment - INFO - Starting AstroAssistance deployment...
+2025-08-07 10:01:32,136 - AstroAssistance-Deployment - INFO - Setting up virtual environment...
+2025-08-07 10:01:32,137 - AstroAssistance-Deployment - INFO - Running command: ['/home/notcool/Desktop/AstroAssistance/venv/bin/python', '-m', 'pip', 'install', '--upgrade', 'pip']
+2025-08-07 10:01:33,406 - AstroAssistance-Deployment - INFO - Command output: Requirement already satisfied: pip in ./venv/lib/python3.13/site-packages (25.2)
+
+2025-08-07 10:01:33,406 - AstroAssistance-Deployment - INFO - Using Python: /home/notcool/Desktop/AstroAssistance/venv/bin/python
+2025-08-07 10:01:33,406 - AstroAssistance-Deployment - INFO - Installing core dependencies...
+2025-08-07 10:01:33,407 - AstroAssistance-Deployment - INFO - Running command: ['/home/notcool/Desktop/AstroAssistance/venv/bin/pip', 'install', 'fastapi', 'uvicorn', 'pydantic', 'python-jose', 'PyJWT', 'PyYAML', 'loguru', 'numpy', 'pandas', 'scikit-learn', 'requests', 'python-dotenv', 'sqlalchemy', 'psycopg2-binary']
+2025-08-07 10:01:54,897 - AstroAssistance-Deployment - INFO - Command output: Requirement already satisfied: fastapi in ./venv/lib/python3.13/site-packages (0.116.1)
+Requirement already satisfied: uvicorn in ./venv/lib/python3.13/site-packages (0.35.0)
+Requirement already satisfied: pydantic in ./venv/lib/python3.13/site-packages (2.11.7)
+Requirement already satisfied: python-jose in ./venv/lib/python3.13/site-packages (3.5.0)
+Requirement already satisfied: PyJWT in ./venv/lib/python3.13/site-packages (2.10.1)
+Requirement already satisfied: PyYAML in ./venv/lib/python3.13/site-packages (6.0.2)
+Requirement already satisfied: loguru in ./venv/lib/python3.13/site-packages (0.7.3)
+Requirement already satisfied: numpy in ./venv/lib/python3.13/site-packages (2.3.2)
+Requirement already satisfied: pandas in ./venv/lib/python3.13/site-packages (2.3.1)
+Collecting scikit-learn
+  Using cached scikit_learn-1.7.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: requests in ./venv/lib/python3.13/site-packages (2.32.4)
+Collecting python-dotenv
+  Using cached python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)
+Collecting sqlalchemy
+  Using cached sqlalchemy-2.0.42-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+Collecting psycopg2-binary
+  Using cached psycopg2_binary-2.9.10-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Requirement already satisfied: starlette<0.48.0,>=0.40.0 in ./venv/lib/python3.13/site-packages (from fastapi) (0.47.2)
+Requirement already satisfied: typing-extensions>=4.8.0 in ./venv/lib/python3.13/site-packages (from fastapi) (4.14.1)
+Requirement already satisfied: annotated-types>=0.6.0 in ./venv/lib/python3.13/site-packages (from pydantic) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.2 in ./venv/lib/python3.13/site-packages (from pydantic) (2.33.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in ./venv/lib/python3.13/site-packages (from pydantic) (0.4.1)
+Requirement already satisfied: anyio<5,>=3.6.2 in ./venv/lib/python3.13/site-packages (from starlette<0.48.0,>=0.40.0->fastapi) (4.10.0)
+Requirement already satisfied: idna>=2.8 in ./venv/lib/python3.13/site-packages (from anyio<5,>=3.6.2->starlette<0.48.0,>=0.40.0->fastapi) (3.10)
+Requirement already satisfied: sniffio>=1.1 in ./venv/lib/python3.13/site-packages (from anyio<5,>=3.6.2->starlette<0.48.0,>=0.40.0->fastapi) (1.3.1)
+Requirement already satisfied: click>=7.0 in ./venv/lib/python3.13/site-packages (from uvicorn) (8.2.1)
+Requirement already satisfied: h11>=0.8 in ./venv/lib/python3.13/site-packages (from uvicorn) (0.16.0)
+Requirement already satisfied: ecdsa!=0.15 in ./venv/lib/python3.13/site-packages (from python-jose) (0.19.1)
+Requirement already satisfied: rsa!=4.1.1,!=4.4,<5.0,>=4.0 in ./venv/lib/python3.13/site-packages (from python-jose) (4.9.1)
+Requirement already satisfied: pyasn1>=0.5.0 in ./venv/lib/python3.13/site-packages (from python-jose) (0.6.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./venv/lib/python3.13/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./venv/lib/python3.13/site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./venv/lib/python3.13/site-packages (from pandas) (2025.2)
+Collecting scipy>=1.8.0 (from scikit-learn)
+  Using cached scipy-1.16.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (61 kB)
+Collecting joblib>=1.2.0 (from scikit-learn)
+  Using cached joblib-1.5.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./venv/lib/python3.13/site-packages (from requests) (3.4.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.13/site-packages (from requests) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.13/site-packages (from requests) (2025.8.3)
+Collecting greenlet>=1 (from sqlalchemy)
+  Using cached greenlet-3.2.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)
+Requirement already satisfied: six>=1.9.0 in ./venv/lib/python3.13/site-packages (from ecdsa!=0.15->python-jose) (1.17.0)
+Using cached scikit_learn-1.7.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.4 MB)
+Using cached python_dotenv-1.1.1-py3-none-any.whl (20 kB)
+Using cached sqlalchemy-2.0.42-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Using cached psycopg2_binary-2.9.10-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Using cached greenlet-3.2.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (608 kB)
+Using cached joblib-1.5.1-py3-none-any.whl (307 kB)
+Using cached scipy-1.16.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (35.2 MB)
+Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, scipy, python-dotenv, psycopg2-binary, joblib, greenlet, sqlalchemy, scikit-learn
+
+Successfully installed greenlet-3.2.3 joblib-1.5.1 psycopg2-binary-2.9.10 python-dotenv-1.1.1 scikit-learn-1.7.1 scipy-1.16.1 sqlalchemy-2.0.42 threadpoolctl-3.6.0
+
+2025-08-07 10:01:54,898 - AstroAssistance-Deployment - INFO - Generating sample data...
+2025-08-07 10:01:54,900 - AstroAssistance-Deployment - INFO - Sample data saved to /home/notcool/Desktop/AstroAssistance/data/synthetic/tasks.json
+2025-08-07 10:01:54,901 - AstroAssistance-Deployment - INFO - Deployment completed successfully
+2025-08-07 10:02:20,293 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data
+2025-08-07 10:02:20,293 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data/raw
+2025-08-07 10:02:20,293 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data/processed
+2025-08-07 10:02:20,293 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/data/synthetic
+2025-08-07 10:02:20,294 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/models
+2025-08-07 10:02:20,294 - AstroAssistance-Deployment - INFO - Ensured directory exists: /home/notcool/Desktop/AstroAssistance/logs
+2025-08-07 10:02:20,300 - AstroAssistance-Deployment - INFO - Starting AstroAssistance deployment...
+2025-08-07 10:02:20,300 - AstroAssistance-Deployment - INFO - Setting up virtual environment...
+2025-08-07 10:02:20,300 - AstroAssistance-Deployment - INFO - Running command: ['/home/notcool/Desktop/AstroAssistance/venv/bin/python', '-m', 'pip', 'install', '--upgrade', 'pip']
+2025-08-07 10:02:21,336 - AstroAssistance-Deployment - INFO - Command output: Requirement already satisfied: pip in ./venv/lib/python3.13/site-packages (25.2)
+
+2025-08-07 10:02:21,336 - AstroAssistance-Deployment - INFO - Using Python: /home/notcool/Desktop/AstroAssistance/venv/bin/python
+2025-08-07 10:02:21,336 - AstroAssistance-Deployment - INFO - Installing core dependencies...
+2025-08-07 10:02:21,337 - AstroAssistance-Deployment - INFO - Running command: ['/home/notcool/Desktop/AstroAssistance/venv/bin/pip', 'install', 'fastapi', 'uvicorn', 'pydantic', 'python-jose', 'PyJWT', 'PyYAML', 'loguru', 'numpy', 'pandas', 'scikit-learn', 'requests', 'python-dotenv', 'sqlalchemy', 'psycopg2-binary']
+2025-08-07 10:02:22,156 - AstroAssistance-Deployment - INFO - Command output: Requirement already satisfied: fastapi in ./venv/lib/python3.13/site-packages (0.116.1)
+Requirement already satisfied: uvicorn in ./venv/lib/python3.13/site-packages (0.35.0)
+Requirement already satisfied: pydantic in ./venv/lib/python3.13/site-packages (2.11.7)
+Requirement already satisfied: python-jose in ./venv/lib/python3.13/site-packages (3.5.0)
+Requirement already satisfied: PyJWT in ./venv/lib/python3.13/site-packages (2.10.1)
+Requirement already satisfied: PyYAML in ./venv/lib/python3.13/site-packages (6.0.2)
+Requirement already satisfied: loguru in ./venv/lib/python3.13/site-packages (0.7.3)
+Requirement already satisfied: numpy in ./venv/lib/python3.13/site-packages (2.3.2)
+Requirement already satisfied: pandas in ./venv/lib/python3.13/site-packages (2.3.1)
+Requirement already satisfied: scikit-learn in ./venv/lib/python3.13/site-packages (1.7.1)
+Requirement already satisfied: requests in ./venv/lib/python3.13/site-packages (2.32.4)
+Requirement already satisfied: python-dotenv in ./venv/lib/python3.13/site-packages (1.1.1)
+Requirement already satisfied: sqlalchemy in ./venv/lib/python3.13/site-packages (2.0.42)
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.13/site-packages (2.9.10)
+Requirement already satisfied: starlette<0.48.0,>=0.40.0 in ./venv/lib/python3.13/site-packages (from fastapi) (0.47.2)
+Requirement already satisfied: typing-extensions>=4.8.0 in ./venv/lib/python3.13/site-packages (from fastapi) (4.14.1)
+Requirement already satisfied: annotated-types>=0.6.0 in ./venv/lib/python3.13/site-packages (from pydantic) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.2 in ./venv/lib/python3.13/site-packages (from pydantic) (2.33.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in ./venv/lib/python3.13/site-packages (from pydantic) (0.4.1)
+Requirement already satisfied: anyio<5,>=3.6.2 in ./venv/lib/python3.13/site-packages (from starlette<0.48.0,>=0.40.0->fastapi) (4.10.0)
+Requirement already satisfied: idna>=2.8 in ./venv/lib/python3.13/site-packages (from anyio<5,>=3.6.2->starlette<0.48.0,>=0.40.0->fastapi) (3.10)
+Requirement already satisfied: sniffio>=1.1 in ./venv/lib/python3.13/site-packages (from anyio<5,>=3.6.2->starlette<0.48.0,>=0.40.0->fastapi) (1.3.1)
+Requirement already satisfied: click>=7.0 in ./venv/lib/python3.13/site-packages (from uvicorn) (8.2.1)
+Requirement already satisfied: h11>=0.8 in ./venv/lib/python3.13/site-packages (from uvicorn) (0.16.0)
+Requirement already satisfied: ecdsa!=0.15 in ./venv/lib/python3.13/site-packages (from python-jose) (0.19.1)
+Requirement already satisfied: rsa!=4.1.1,!=4.4,<5.0,>=4.0 in ./venv/lib/python3.13/site-packages (from python-jose) (4.9.1)
+Requirement already satisfied: pyasn1>=0.5.0 in ./venv/lib/python3.13/site-packages (from python-jose) (0.6.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./venv/lib/python3.13/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./venv/lib/python3.13/site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./venv/lib/python3.13/site-packages (from pandas) (2025.2)
+Requirement already satisfied: scipy>=1.8.0 in ./venv/lib/python3.13/site-packages (from scikit-learn) (1.16.1)
+Requirement already satisfied: joblib>=1.2.0 in ./venv/lib/python3.13/site-packages (from scikit-learn) (1.5.1)
+Requirement already satisfied: threadpoolctl>=3.1.0 in ./venv/lib/python3.13/site-packages (from scikit-learn) (3.6.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./venv/lib/python3.13/site-packages (from requests) (3.4.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.13/site-packages (from requests) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.13/site-packages (from requests) (2025.8.3)
+Requirement already satisfied: greenlet>=1 in ./venv/lib/python3.13/site-packages (from sqlalchemy) (3.2.3)
+Requirement already satisfied: six>=1.9.0 in ./venv/lib/python3.13/site-packages (from ecdsa!=0.15->python-jose) (1.17.0)
+
+2025-08-07 10:02:22,156 - AstroAssistance-Deployment - INFO - Starting API server...
+2025-08-07 10:02:22,157 - AstroAssistance-Deployment - INFO - API server command: /home/notcool/Desktop/AstroAssistance/venv/bin/python /home/notcool/Desktop/AstroAssistance/minimal_api.py
+2025-08-07 10:02:22,157 - AstroAssistance-Deployment - INFO - In production, use a process manager like supervisord or systemd
+2025-08-07 10:02:22,157 - AstroAssistance-Deployment - INFO - For now, we'll start the server in the foreground

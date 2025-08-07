@@ -1,0 +1,54 @@
+[
+  {
+    "id": "task1",
+    "title": "Complete project proposal",
+    "description": "Write a detailed proposal for the new project",
+    "category": "WORK",
+    "priority": "HIGH",
+    "status": "IN_PROGRESS",
+    "due_date": "2025-08-07T10:01:54.899062",
+    "created_at": "2025-08-07T10:01:54.899096",
+    "updated_at": "2025-08-07T10:01:54.899102",
+    "estimated_duration": 120,
+    "tags": [
+      "project",
+      "proposal",
+      "deadline"
+    ],
+    "user_id": "user123"
+  },
+  {
+    "id": "task2",
+    "title": "Schedule doctor appointment",
+    "description": "Call the clinic to schedule annual checkup",
+    "category": "PERSONAL",
+    "priority": "MEDIUM",
+    "status": "NOT_STARTED",
+    "due_date": "2025-08-07T10:01:54.899112",
+    "created_at": "2025-08-07T10:01:54.899115",
+    "updated_at": "2025-08-07T10:01:54.899118",
+    "estimated_duration": 15,
+    "tags": [
+      "health",
+      "appointment"
+    ],
+    "user_id": "user123"
+  },
+  {
+    "id": "task3",
+    "title": "Prepare presentation",
+    "description": "Create slides for the team meeting",
+    "category": "WORK",
+    "priority": "HIGH",
+    "status": "NOT_STARTED",
+    "due_date": "2025-08-07T10:01:54.899123",
+    "created_at": "2025-08-07T10:01:54.899126",
+    "updated_at": "2025-08-07T10:01:54.899130",
+    "estimated_duration": 90,
+    "tags": [
+      "presentation",
+      "meeting"
+    ],
+    "user_id": "user123"
+  }
+]

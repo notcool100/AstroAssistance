@@ -1,0 +1,18 @@
+# Core dependencies
+numpy
+pandas
+scikit-learn
+
+# API and web framework
+fastapi
+uvicorn
+pydantic
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Utilities
+python-dotenv
+loguru
+joblib
