@@ -1,0 +1,32 @@
+2025-08-07 10:10:27,836 - AstroAssistance-Training - INFO - Starting AstroAssistance AI training pipeline
+2025-08-07 10:10:27,837 - AstroAssistance-Training - INFO - Loading sample data
+2025-08-07 10:10:27,838 - AstroAssistance-Training - INFO - Generating 100 additional synthetic tasks for training
+2025-08-07 10:10:27,875 - AstroAssistance-Training - INFO - Loaded and enhanced 103 tasks for training
+2025-08-07 10:10:27,876 - AstroAssistance-Training - INFO - Training task completion prediction model
+2025-08-07 10:10:27,876 - AstroAssistance-Training - INFO - Preprocessing task data for completion prediction
+2025-08-07 10:10:27,904 - AstroAssistance-Training - INFO - Preprocessed data shape: (103, 4)
+2025-08-07 10:10:28,132 - AstroAssistance-Training - INFO - Task completion prediction accuracy: 0.4762
+2025-08-07 10:10:28,146 - AstroAssistance-Training - INFO - Classification report:
+              precision    recall  f1-score   support
+
+       False       0.43      0.67      0.52         9
+        True       0.57      0.33      0.42        12
+
+    accuracy                           0.48        21
+   macro avg       0.50      0.50      0.47        21
+weighted avg       0.51      0.48      0.46        21
+
+2025-08-07 10:10:28,257 - AstroAssistance-Training - INFO - Model saved to /home/notcool/Desktop/AstroAssistance/models/task_completion_predictor.joblib
+2025-08-07 10:10:28,257 - AstroAssistance-Training - INFO - Training task duration prediction model
+2025-08-07 10:10:28,258 - AstroAssistance-Training - INFO - Preprocessing task data for duration prediction
+2025-08-07 10:10:28,271 - AstroAssistance-Training - INFO - Preprocessed data shape: (64, 4)
+2025-08-07 10:10:28,377 - AstroAssistance-Training - INFO - Task duration prediction RMSE: 55.5874 minutes
+2025-08-07 10:10:28,387 - AstroAssistance-Training - INFO - Model saved to /home/notcool/Desktop/AstroAssistance/models/task_duration_predictor.joblib
+2025-08-07 10:10:28,388 - AstroAssistance-Training - INFO - Training completed successfully
+2025-08-07 10:10:28,388 - AstroAssistance-Training - INFO - Generating recommendations based on trained models
+2025-08-07 10:10:28,388 - AstroAssistance-Training - INFO - Generating recommendations
+2025-08-07 10:10:28,444 - AstroAssistance-Training - INFO - Loaded task completion prediction model
+2025-08-07 10:10:28,457 - AstroAssistance-Training - INFO - Loaded task duration prediction model
+2025-08-07 10:10:29,741 - AstroAssistance-Training - INFO - Generated 2 recommendations
+2025-08-07 10:10:29,742 - AstroAssistance-Training - INFO - Saved 2 recommendations to /home/notcool/Desktop/AstroAssistance/data/synthetic/recommendations.json
+2025-08-07 10:10:29,742 - AstroAssistance-Training - INFO - AI training pipeline completed

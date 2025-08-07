@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rec_duration_syn_task_40",
+    "title": "Duration warning: Synthetic Task 40",
+    "description": "This task might take longer than estimated. Consider allocating more time.",
+    "type": "task_duration_warning",
+    "priority": 2,
+    "created_at": "2025-08-07T10:10:29.592846",
+    "expires_at": null,
+    "user_id": "user123",
+    "metadata": {
+      "task_id": "syn_task_40",
+      "estimated_duration": 36.0,
+      "predicted_duration": 60.26976736693015
+    }
+  },
+  {
+    "id": "rec_priority_syn_task_81",
+    "title": "Prioritize: Synthetic Task 81",
+    "description": "This high-priority task has the nearest deadline. Consider working on it next.",
+    "type": "task_prioritization",
+    "priority": 3,
+    "created_at": "2025-08-07T10:10:29.741632",
+    "expires_at": null,
+    "user_id": "user123",
+    "metadata": {
+      "task_id": "syn_task_81"
+    }
+  }
+]
